@@ -29,6 +29,7 @@ int main(void)
         printf("%d\n", pt[i]);
     }
     free(pt);
+    // size of pointer is independent of its datatype
 
     return 0;
 }
