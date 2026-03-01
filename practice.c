@@ -8,8 +8,8 @@ struct rectangle {
 struct better {
     long long int s;
     double d;
-    //float f;
-    char c;
+    float f;
+    //char c;
 };
 struct worse {
     char c;
