@@ -2,11 +2,9 @@
 #include <stdbool.h>
 
 bool isPalindrome(unsigned int x) {
-    if (x < 0) return false;
+   
     unsigned int a = 0, remainder;
-
-
-    int y = x;
+    unsigned int y = x;
     while(y != 0) {
         remainder = y % 10;
         a = a * 10 + remainder;
